@@ -18,7 +18,7 @@ const obtenerMemes= async()=>{
 
 
 const ObtenerGif= async()=>{
-    const request = await fetch("http://api.giphy.com/v1/gifs/search?api_key=lerx9FDWD5PH78M207Cj95ac4KTt8G3v&q=messi goat&limit=3")
+    const request = await fetch("https://giphy.com/gifs/levi-1gDtIz79gmhCo")
     const response = await request.json()
     console.log(response.data[0].images.original.url)
 
